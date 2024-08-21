@@ -1,0 +1,43 @@
+
+Deploying to stage dev
+hello › waiting
+hello › deploying
+hello › Running "serverless deploy --stage dev"
+hello › (node:16888) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+hello › (Use `node --trace-deprecation ...` to show where the warning was created)
+hello › Warning: Invalid configuration encountered
+hello ›   at 'provider.runtime': must be equal to one of the allowed values [dotnet6, dotnetcore3.1, go1.x, java11, java8, java8.al2, nodejs12.x, nodejs14.x, nodejs16.x, provided, provided.al2, python3.6, python3.7, python3.8, python3.9, ruby2.7]
+hello › 
+hello › Learn more about configuration validation here: http://slss.io/configuration-validation
+hello › Deploying hello to stage dev (us-east-1)
+hello › Warning: Lambda log collection is not supported in us-east-1
+hello › ✔ Service deployed to stack hello-dev (49s)
+hello › dashboard: https://app.serverless.com/admiralrudyadventures/apps/demo-api/hello/dev/us-east-1
+hello › endpoint: ANY - https://nqq149sxrg.execute-api.us-east-1.amazonaws.com
+hello › functions:
+hello ›   api: hello-dev-api (1.1 MB)
+hello › 1 deprecation found: run 'serverless doctor' for more details
+hello › Running "serverless info --verbose --stage dev"
+hello › (node:36536) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+hello › (Use `node --trace-deprecation ...` to show where the warning was created)
+hello › Warning: Invalid configuration encountered
+hello ›   at 'provider.runtime': must be equal to one of the allowed values [dotnet6, dotnetcore3.1, go1.x, java11, java8, java8.al2, nodejs12.x, nodejs14.x, nodejs16.x, provided, provided.al2, python3.6, python3.7, python3.8, python3.9, ruby2.7]
+hello › 
+hello › Learn more about configuration validation here: http://slss.io/configuration-validation
+hello › service: hello
+hello › stage: dev
+hello › region: us-east-1
+hello › stack: hello-dev
+hello › dashboard: https://app.serverless.com/admiralrudyadventures/apps/demo-api/hello/dev/us-east-1
+hello › endpoint: ANY - https://nqq149sxrg.execute-api.us-east-1.amazonaws.com
+hello › functions:
+hello ›   api: hello-dev-api
+hello › 
+hello › Stack Outputs:
+hello ›   EnterpriseLogAccessIamRole: arn:aws:iam::400662014456:role/hello-dev-EnterpriseLogAccessIamRole-ewvbrGpLXzyl
+hello ›   ApiLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:400662014456:function:hello-dev-api:2
+hello ›   HttpApiId: nqq149sxrg
+hello ›   ServerlessDeploymentBucketName: hello-dev-serverlessdeploymentbucket-oiwnmw3ibamd
+hello ›   HttpApiUrl: https://nqq149sxrg.execute-api.us-east-1.amazonaws.com
+hello › 1 deprecation found: run 'serverless doctor' for more details
+hello › deployed

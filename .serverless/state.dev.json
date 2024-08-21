@@ -1,0 +1,19 @@
+{
+  "service": {
+    "id": "d4q11kb"
+  },
+  "components": {
+    "hello": {
+      "state": {
+        "detectedFrameworkVersion": "3.21.0"
+      },
+      "outputs": {
+        "EnterpriseLogAccessIamRole": "arn:aws:iam::400662014456:role/hello-dev-EnterpriseLogAccessIamRole-ewvbrGpLXzyl",
+        "ApiLambdaFunctionQualifiedArn": "arn:aws:lambda:us-east-1:400662014456:function:hello-dev-api:2",
+        "HttpApiId": "nqq149sxrg",
+        "ServerlessDeploymentBucketName": "hello-dev-serverlessdeploymentbucket-oiwnmw3ibamd",
+        "HttpApiUrl": "https://nqq149sxrg.execute-api.us-east-1.amazonaws.com"
+      }
+    }
+  }
+}
